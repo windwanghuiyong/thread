@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C77ED741E2F822E00E3BA66 /* TicketManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C77ED731E2F822E00E3BA66 /* TicketManger.m */; };
 		0CC2DB5B1E13D6C400CD5E16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2DB5A1E13D6C400CD5E16 /* main.m */; };
 		0CC2DB5E1E13D6C400CD5E16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2DB5D1E13D6C400CD5E16 /* AppDelegate.m */; };
 		0CC2DB611E13D6C400CD5E16 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2DB601E13D6C400CD5E16 /* ViewController.m */; };
@@ -14,10 +15,11 @@
 		0CC2DB671E13D6C400CD5E16 /* Thread.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0CC2DB651E13D6C400CD5E16 /* Thread.xcdatamodeld */; };
 		0CC2DB691E13D6C400CD5E16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CC2DB681E13D6C400CD5E16 /* Assets.xcassets */; };
 		0CC2DB6C1E13D6C400CD5E16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CC2DB6A1E13D6C400CD5E16 /* LaunchScreen.storyboard */; };
-		0CC68C7B1E1915BF00AFEA33 /* TicketManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC68C7A1E1915BF00AFEA33 /* TicketManger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C77ED721E2F822E00E3BA66 /* TicketManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TicketManger.h; sourceTree = "<group>"; };
+		0C77ED731E2F822E00E3BA66 /* TicketManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TicketManger.m; sourceTree = "<group>"; };
 		0CC2DB561E13D6C400CD5E16 /* Thread.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thread.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CC2DB5A1E13D6C400CD5E16 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0CC2DB5C1E13D6C400CD5E16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,8 +31,6 @@
 		0CC2DB681E13D6C400CD5E16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CC2DB6B1E13D6C400CD5E16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CC2DB6D1E13D6C400CD5E16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CC68C791E1915BF00AFEA33 /* TicketManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TicketManger.h; path = ../TicketManger.h; sourceTree = "<group>"; };
-		0CC68C7A1E1915BF00AFEA33 /* TicketManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TicketManger.m; path = ../TicketManger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 			children = (
 				0CC2DB5C1E13D6C400CD5E16 /* AppDelegate.h */,
 				0CC2DB5D1E13D6C400CD5E16 /* AppDelegate.m */,
-				0CC68C791E1915BF00AFEA33 /* TicketManger.h */,
-				0CC68C7A1E1915BF00AFEA33 /* TicketManger.m */,
+				0C77ED721E2F822E00E3BA66 /* TicketManger.h */,
+				0C77ED731E2F822E00E3BA66 /* TicketManger.m */,
 				0CC2DB5F1E13D6C400CD5E16 /* ViewController.h */,
 				0CC2DB601E13D6C400CD5E16 /* ViewController.m */,
 				0CC2DB621E13D6C400CD5E16 /* Main.storyboard */,
@@ -162,8 +162,8 @@
 				0CC2DB611E13D6C400CD5E16 /* ViewController.m in Sources */,
 				0CC2DB5E1E13D6C400CD5E16 /* AppDelegate.m in Sources */,
 				0CC2DB5B1E13D6C400CD5E16 /* main.m in Sources */,
+				0C77ED741E2F822E00E3BA66 /* TicketManger.m in Sources */,
 				0CC2DB671E13D6C400CD5E16 /* Thread.xcdatamodeld in Sources */,
-				0CC68C7B1E1915BF00AFEA33 /* TicketManger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
